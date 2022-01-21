@@ -1,0 +1,100 @@
+body {
+	font-family: "Poppins", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.bestPlaceTitle {
+	text-align: center;
+	font-size: 33px;
+	margin-bottom: 40px;
+}
+
+#bestPlaceImagesContainer {
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 22%);
+	grid-gap: 3%;
+	/* border: 1px solid #000; */
+	justify-content: center;
+}
+
+.bestPlaceImage1 {
+	position: relative;
+	/* border: 1px solid red; */
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xplace-1.jpg.pagespeed.ic.GwxIJdgoC9.webp);
+	width: 100%;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+.bestPlaceImage2 {
+	position: relative;
+	/* border: 1px solid red; */
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xplace-2.jpg.pagespeed.ic._jEYAIxznV.webp);
+	width: 100%;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+.bestPlaceImage3 {
+	position: relative;
+	/* border: 1px solid red; */
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xplace-3.jpg.pagespeed.ic.Zhlxq_Fm-Y.webp);
+	width: 100%;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+.bestPlaceImage4 {
+	position: relative;
+	/* border: 1px solid red; */
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xplace-4.jpg.pagespeed.ic.3oTVZALkMS.webp);
+	width: 100%;
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.bestPlacePlace {
+	color: #fff;
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+.bestPlaceOrangeBox {
+	position: absolute;
+	color: #fff;
+	/* left: 70px; */
+	padding-right: 10px;
+	top: 80%;
+	right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 19px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	background-color: #343a40;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.bestPlaceTitle {
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	#bestPlaceImagesContainer {
+		width: 90%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(1, 90%);
+		justify-content: center;
+		grid-gap: 0;
+	}
+}

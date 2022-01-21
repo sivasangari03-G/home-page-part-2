@@ -1,0 +1,215 @@
+body {
+	font-family: "Poppins", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#tourDestinationHeading {
+	margin-top: 100px;
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.container--main {
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+
+#tourDestinationBox1 {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xdestination-1.jpg.pagespeed.ic.TPV5k5yhjl.webp);
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	/* background-repeat: no-repeat; */
+	position: relative;
+	margin: auto;
+}
+
+#tourDestinationBox2 {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xdestination-2.jpg.pagespeed.ic.-iSsgx3cAW.webp);
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#tourDestinationBox3 {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xdestination-3.jpg.pagespeed.ic.2JortQzSWj.webp);
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+	object-fit: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#tourDestinationBox4 {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xdestination-4.jpg.pagespeed.ic.3_zTwVj9y8.webp);
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+	object-fit: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#tourDestinationBox5 {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xdestination-3.jpg.pagespeed.ic.2JortQzSWj.webp);
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+	object-fit: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#tourDestinationBox6 {
+	background-image: url(https://preview.colorlib.com/theme/vacation/images/xdestination-6.jpg.pagespeed.ic.dydIikNxuk.webp);
+	height: 270px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+	object-fit: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#tourDestinationOrangeFloat {
+	position: absolute;
+	top: 240px;
+	margin-left: 30%;
+	background-color: #f9ab30;
+	border-radius: 30px;
+	color: white;
+	font-size: 18px;
+	font-family: "Poppins", Arial, sans-serif;
+	text-align: center;
+
+	border-radius: 40px;
+	flex: 1;
+	/* top: -35%; */
+	/* left: 30%; */
+	padding: 5%;
+	display: inline-block;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+#tourDestinationOrangeFloat:hover {
+	padding-right: 25px;
+	padding-left: 25px;
+	color: white;
+	background: rgb(43, 42, 42);
+}
+
+.tourDest8Days {
+	/* margin-top: 30px; */
+	padding-left: 30px;
+	padding-top: 30px;
+	color: #999;
+}
+
+.tourDesLocationBlack {
+	padding-left: 30px;
+	padding-top: 10px;
+	font-size: 25px;
+}
+.tourDesLocationGray {
+	padding-left: 30px;
+	padding-top: 15px;
+	font-size: 18px;
+	color: #999;
+}
+
+.tourDesNearMoun {
+	padding-left: 30px;
+	padding-top: 15px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	text-align: baseline;
+	padding-bottom: 30px;
+	flex-wrap: wrap;
+}
+
+#tourDestinationboxOutline1,
+#tourDestinationboxOutline2,
+#tourDestinationboxOutline3,
+#tourDestinationboxOutline4,
+#tourDestinationboxOutline5,
+#tourDestinationboxOutline6 {
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+	.container--main {
+		width: 90%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+	}
+
+	#tourDestinationOrangeFloat:hover {
+		padding-right: 20px;
+		padding-left: 20px;
+		color: white;
+		background: rgb(43, 42, 42);
+	}
+	#tourDestinationOrangeFloat {
+		position: absolute;
+		top: 240px;
+		margin-left: 25%;
+		background-color: #f9ab30;
+		border-radius: 30px;
+		color: white;
+		font-size: 18px;
+		font-family: "Poppins", Arial, sans-serif;
+		text-align: center;
+
+		border-radius: 40px;
+		flex: 1;
+		/* top: -35%; */
+		/* left: 30%; */
+		padding: 5%;
+		display: inline-block;
+		transition-property: all;
+		transition-duration: 0.5s;
+	}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.container--main {
+		width: 90%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+	}
+	#tourDestinationOrangeFloat {
+		position: absolute;
+		top: 240px;
+		margin-left: 25%;
+		
+	}
+}
